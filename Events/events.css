@@ -1,0 +1,102 @@
+.back {
+  background-image: url(EYO.png);
+  height: 400px;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1350px;
+  color: white;
+  font-style: italic;
+  font-weight: 1200px;
+  text-align: center;
+  width: 100%;
+}
+#text-back {
+  padding-top: 150px;
+  color: #008751;
+}
+
+.event {
+  width: 300px;
+
+  height: 300px;
+}
+h4 {
+  font-size: 15px;
+}
+p {
+  font-size: 12px;
+}
+figcaption {
+  font-size: 15px;
+}
+.col {
+  padding-top: 25px;
+  align-items: center;
+  padding-left: 80px;
+}
+nav {
+  background-color: #2c3040;
+}
+form {
+  margin-left: 500px;
+}
+@media screen and (max-width: 800px) {
+  form {
+    margin-left: 0;
+  }
+}
+footer {
+  padding-top: 40px;
+  background-color: #2c3040;
+  color: white;
+  padding-right: 10px;
+  margin-top: 20px;
+  padding-left: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.secondfooter {
+  margin-top: 30px;
+}
+
+ul {
+  list-style-type: none;
+}
+.li-quick {
+  margin-left: -30px;
+  font-size: 10px;
+}
+#navlist {
+  display: flex;
+}
+.social,
+.contact {
+  margin-left: 30px;
+}
+.quick {
+  margin-left: 320px;
+  margin-right: 20px;
+}
+.stretch {
+  margin: 30px;
+  justify-content: space-between;
+  display: flex;
+}
+.firfoot {
+  display: flex;
+}
+figure {
+  padding-right: 20px;
+}
+
+.fest {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 30px;
+  border-bottom: 10px solid #008751;
+  border-bottom-style: double;
+  border-width: 10px;
+}
