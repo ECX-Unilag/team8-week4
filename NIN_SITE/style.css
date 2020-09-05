@@ -1,0 +1,54 @@
+
+.top{
+	margin:0;
+	padding:0;
+	background-color:white !important;
+	
+    }
+
+.navlogo{
+    width: 45px;
+    height:40px; 
+}   
+.hero{
+    width: 100%;
+} 
+.rec{
+    
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.comp{
+    width: 100%;
+}
+h2{
+    font-family: Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+h4{
+    color: #008751;
+    font-family: Helvetica, sans-serif;
+}
+p{
+    font-family: Helvetica, sans-serif;
+    font-style:normal;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.fa-search{
+    position: relative;
+    right:35px;
+}
+.nav-link:hover{
+    color:#008751 !important;
+    border-bottom: 2px solid rgb(33, 192, 33);
+}
+.navbar-toggler:focus, .navbar-toggler-icon:focus{
+    outline:none;
+}
