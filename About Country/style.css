@@ -1,0 +1,228 @@
+.nav{
+    display: flex;
+    height: 41px;
+    background: #2C3040;
+    box-shadow: 0px 4px 8px rgba(44, 48, 64, 0.18), 0px 0px 2px rgba(44, 48, 64, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+#image{
+    width: 60px;
+    height: 40px;
+    margin-left: 30px;
+}
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    margin-left: 550px;
+    margin-top: 7px;
+    width: 230px;
+    background-image: url(search-solid.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    border: none;
+    height: 25px;
+    padding: 10px;
+    border-radius: 4px;
+}
+h1{
+    color: white;
+    font-size: 58px;
+    font-family: Avengeance Mightiest Avenger;
+}
+h5{
+    font-size: 20px;
+    line-height: 29px;
+    position: absolute;
+    color: #FFFFFF;
+}
+hr{
+    width: 50px;
+    background: #008751;
+}
+.section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.section1{
+    background-image: url('Group 2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+.sect1{  
+    background-image: url('Group.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+}
+#images{
+    width: 100%;
+}
+.section2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.sect3, .sect4, .sect5, .sect6, .sect7, .sect8, .sect9, .sect10, .section3{
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+}
+.section4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    height: 775px;
+}
+.section5{
+    margin-top: 50px;
+    background: #2C3040;
+    height: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;    
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    width: 20%;
+}
+.QL{
+    text-align: center;
+}
+.TV{
+    width: 30%;
+}
+img{
+    height: 500px;
+}
+#Trad{
+    width: 596px;
+    height: 775px;
+}
+#img{
+    width: 100px;
+    height: 50px;
+}
+#imag{
+    width: 420px;
+    height: 420px;
+}
+p{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Helvetica Now Display;
+}
+.text{
+    width: 30%;
+}
+h2{
+    text-align: center;
+    font-size: 38px;
+    font-family: Helvetica Now Text ;
+}
+h3{
+    color: #008751;
+    font-size: 28px;
+    font-family: Helvetica Now Text ;
+}
+h4{
+    font-size: 20px;
+}
+.IS{
+    display: flex;
+    justify-content: space-evenly;
+}
+.XP{
+    width: 424px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.07), 0px 0px 2px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    padding: 10px;
+}
+.download{
+    margin-left: 90px;
+}
+@media only screen and (max-width: 1024px){
+    .nav p{
+        font-size: 12.5px;
+        margin-left: 5px;
+    }    
+    .section5, .section2, .section, .section3{
+        flex-direction: column;
+    }
+    .sect4, .sect6, .sect8, .sect10{
+        flex-direction: column;
+        height: 900px;
+    }
+    .sect3, .sect5, .sect7, .sect9{
+        flex-direction: column-reverse;
+        height: 900px;
+    }
+    .section4{
+        flex-direction: column-reverse;
+        height: 1400px;
+    }
+    #Trad{
+        height: 600px;
+        width: 430px;
+    }
+    img{
+        height: 400px;
+        width: 430px;
+    }
+    h3{
+        text-align: center;
+    }
+    .text{
+        width: 100%;
+    }
+    .section5{
+        height: 1000px;
+        text-align: center;
+    }
+    .contact{
+        margin-left: 130px;
+        width: 50%;
+    }
+    .TV{
+        width: 40%;
+        margin-left: 150px;
+    }
+    .download{
+        margin-left: 10px;
+    }
+    input{
+        margin-left: 10px;
+        width: 30%;
+    }
+    #image{
+        margin-left: 0;
+    }
+    p{
+        text-align: center;
+    }
+    .list{
+        margin-left: 2%;
+        position: relative;
+        width: 50%;
+    }
+    .IS{
+        flex-direction: column;
+        margin-top: 20px;
+        align-items: center;
+    }
+    .section1 img{
+    }
+}
